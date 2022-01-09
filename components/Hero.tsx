@@ -16,6 +16,24 @@ export default function Hero() {
         <button className="bg-gradient-to-r from-pink-300 to-blue-400 text-white px-6 py-2 rounded-md mt-6">
           EXPLORE
         </button>
+        <h2 className="mt-32">Current bid</h2>
+        <span className="text-5xl font-bold mr-4">2.00 ETH</span>
+        <span className="text-lg">$8046.86</span>
+        <h2 className="mt-32">Aucution ending in</h2>
+        <div className="flex space-x-10">
+          <div>
+            <p className="text-4xl font-bold">06</p>
+            <p>hours</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold">26</p>
+            <p>minutes</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold">50</p>
+            <p>seconds</p>
+          </div>
+        </div>
       </div>
       <div className="hidden lg:block ml-10">
         <Image
