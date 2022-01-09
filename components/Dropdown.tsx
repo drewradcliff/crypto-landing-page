@@ -1,6 +1,6 @@
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
-import { MenuIcon } from "@heroicons/react/outline";
+import { HiMenu } from "react-icons/hi";
 
 export default function Dropdown() {
   return (
@@ -8,7 +8,7 @@ export default function Dropdown() {
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex justify-center w-full px-4 py-2">
-            <MenuIcon className="h-5 w-5" />
+            <HiMenu className="h-5 w-5" />
           </Menu.Button>
         </div>
         <Transition
