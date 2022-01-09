@@ -10,28 +10,28 @@ export default function Hero() {
           </span>{" "}
           collect and sell NFTs.
         </h1>
-        <h2 className="mt-6">
+        <h2 className="mt-6 dark:text-gray-300">
           Explore on the world&apos;s best and largest NFT marketplace.
         </h2>
         <button className="bg-gradient-to-r from-pink-300 to-blue-400 text-white px-6 py-2 rounded-md mt-6">
           EXPLORE
         </button>
-        <h2 className="mt-32">Current bid</h2>
+        <h2 className="mt-32 dark:text-gray-300">Current bid</h2>
         <span className="text-5xl font-bold mr-4">2.00 ETH</span>
         <span className="text-lg">$8046.86</span>
-        <h2 className="mt-32">Aucution ending in</h2>
+        <h2 className="mt-32 dark:text-gray-300">Aucution ending in</h2>
         <div className="flex space-x-10">
           <div>
             <p className="text-4xl font-bold">06</p>
-            <p>hours</p>
+            <p className="dark:text-gray-300">hours</p>
           </div>
           <div>
             <p className="text-4xl font-bold">26</p>
-            <p>minutes</p>
+            <p className="dark:text-gray-300">minutes</p>
           </div>
           <div>
             <p className="text-4xl font-bold">50</p>
-            <p>seconds</p>
+            <p className="dark:text-gray-300">seconds</p>
           </div>
         </div>
       </div>
