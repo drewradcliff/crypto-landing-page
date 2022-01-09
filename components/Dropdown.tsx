@@ -1,10 +1,6 @@
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
-import {
-  PencilIcon,
-  MenuIcon,
-  PresentationChartLineIcon,
-} from "@heroicons/react/outline";
+import { MenuIcon } from "@heroicons/react/outline";
 
 export default function Dropdown() {
   return (

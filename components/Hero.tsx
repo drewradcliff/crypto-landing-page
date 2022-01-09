@@ -23,7 +23,7 @@ export default function Hero() {
           alt="hero"
           src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2874&q=80"
           width={900}
-          height={600}
+          height={1000}
         />
       </div>
     </div>
